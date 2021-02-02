@@ -52,7 +52,6 @@ body {
     color: white;
     text-align: center;
     padding-top: 130px;
-    padding-right: 60px;
     transform: rotate(-10deg);
     font-size: 75px;
     font-family: "Header";
@@ -70,12 +69,13 @@ body {
     color: white;
     text-align: center;
     transform: rotate(-10deg);
+    padding-left: 50px;
     font-size: 50px;
     margin-top: -35px;
 }
 
 .bg hr {
-    width: 250px;
+    width: 300px;
     margin: auto;
     border: 1px solid white;
     opacity: 0.9;
@@ -269,7 +269,7 @@ bg-1 img {
 
 #date {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Oswald';
     text-align: center;
 }
@@ -351,26 +351,3 @@ bg-1 img {
     display: table;
     clear: both;
 }
-/* // X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up) */
-/* @media (min-width: 576px) { 
-    img {
-        align-items: center;
-        width: 576px;
-        height: auto;
-    }
- } */
-
-/* // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... } */
